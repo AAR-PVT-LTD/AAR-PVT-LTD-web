@@ -39,5 +39,5 @@ jobs:
           with:
 
             args:             
-              -Dsonar.projectKey=AAR-PVT-LTD_AAR-PVT-LTD-main
+              -Dsonar.projectKey=AAR-PVT-LTD_AAR-PVT-LTD-web
               -Dsonar.organization=aar-pvt-ltd
