@@ -13,32 +13,32 @@ class Footer extends Component {
                         {/* Popular Cities Section */}
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
-                                <h5 className="text-white">Popular Cities</h5>
+                                <h5 className="text-white">Cities</h5>
                             </div>
                             <div className="footer-list-div">
                                 <ul>
-                                    <li><a href="#">Karachi</a></li>
-                                    <li><a href="#">Lahore</a></li>
-                                    <li><a href="#">Islamabad</a></li>
-                                    <li><a href="#">Rawalpindi</a></li>
-                                    <li><a href="#">Multan</a></li>
+                                    <li><a href="#">Bangalore</a></li>
+                                    <li><a href="#">Delhi(soon...)</a></li>
+                                    <li><a href="#">Indore(soon...)</a></li>
+                                    <li><a href="#">Chennai(soon...)</a></li>
+                                    <li><a href="#">Chandigarh(soon...)</a></li>
                                 </ul>
                             </div>
                         </div>
 
-                        {/* Popular Cuisnies Section */}                        
+                        {/* Popular Cuisines Section */}                        
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
-                                <h5 className="text-white">Popular Cuisnies</h5>
+                                <h5 className="text-white">Popular Cuisines</h5>
                             </div>
                             <div className="footer-list-div">
                                 <ul>
-                                    <li><a href="#">Apple Juice</a></li>
-                                    <li><a href="#">BB.Q</a></li>
-                                    <li><a href="#">Chicken Roast</a></li>
-                                    <li><a href="#">Hot Dogs</a></li>
-                                    <li><a href="#">Prawns</a></li>
-                                    <li><a href="#">Steam Roast</a></li>
+                                    <li><a href="#">Fruits</a></li>
+                                    <li><a href="#">Salads</a></li>
+                                    <li><a href="#">Eggs</a></li>
+                                    <li><a href="#">Fish</a></li>
+                                    <li><a href="#">Chicken</a></li>
+                                    <li><a href="#">Cereals</a></li>
                                 </ul>
                             </div>
                         </div>
