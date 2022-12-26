@@ -10,7 +10,7 @@ class Footer extends Component {
                 <div className="container mb-4">
                     <div className="row">
 
-                        {/* Popular Cities Section
+                        {/* Popular Cities Section */}
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
                                 <h5 className="text-white">Popular Cities</h5>
@@ -24,29 +24,29 @@ class Footer extends Component {
                                     <li><a href="#">Multan</a></li>
                                 </ul>
                             </div>
-                        </div> */}
+                        </div>
 
                         {/* Popular Cuisnies Section */}                        
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
-                                <h5 className="text-white">Popular Cuisines</h5>
+                                <h5 className="text-white">Popular Cuisnies</h5>
                             </div>
                             <div className="footer-list-div">
                                 <ul>
-                                    <li><a href="#">Fruits</a></li>
-                                    <li><a href="#">Potato</a></li>
-                                    <li><a href="#">Chicken</a></li>
-                                    <li><a href="#">Meat</a></li>
+                                    <li><a href="#">Apple Juice</a></li>
+                                    <li><a href="#">BB.Q</a></li>
+                                    <li><a href="#">Chicken Roast</a></li>
+                                    <li><a href="#">Hot Dogs</a></li>
                                     <li><a href="#">Prawns</a></li>
-                                    <li><a href="#">Eggs</a></li>
+                                    <li><a href="#">Steam Roast</a></li>
                                 </ul>
                             </div>
                         </div>
 
                         {/* Popular Cuisines Section */}
-                        <div className="col-lg-3 col-md-3 col-sm-12">
+                        {/* <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
-                                {/* <h5 className="text-white">Menu</h5>
+                                <h5 className="text-white">Menu</h5>
                             </div>
                             <div className="footer-list-div">
                                 <ul>
