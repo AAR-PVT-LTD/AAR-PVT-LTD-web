@@ -37,14 +37,14 @@ class Home extends Component {
             {/* <Navbar history={this.props.history} /> */}
             <Navbar2 history={this.props.history} />
             <div className="container home-cont1-text">
-              <h1 className="h1 text-uppercase text-white text-center mb-4"><strong>Organic Fast Food Made <br /> Easy access</strong></h1>
+              <h1 className="h1 text-uppercase text-white text-center mb-4"><strong>Fast Food Made <br /> Easy access</strong></h1>
               <div className="container">
                 <div className="row justify-content-center">
                   <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
-                    <input type="text" className="form-control text-uppercase" id="searchText" placeholder="Restaurant Name" onChange={(e) => { this.setState({ homeSearchBarText: e.target.value }) }} />
+                    {/* <input type="text" className="form-control text-uppercase" id="searchText" placeholder="Restaurant Name" onChange={(e) => { this.setState({ homeSearchBarText: e.target.value }) }} /> */}
                   </div>
                   <div className="col-lg-2 col-md-2 col-sm-12">
-                    <button type="button" className="btn btn-warning mb-2 text-uppercase btn-block rounded-0" onClick={this.handleSearchBar}><b>Search</b></button>
+                    {/* <button type="button" className="btn btn-warning mb-2 text-uppercase btn-block rounded-0" onClick={this.handleSearchBar}><b>Search</b></button> */}
                   </div>
                 </div>
               </div>
@@ -108,7 +108,7 @@ class Home extends Component {
         {/* Home Order now section */}
         <div className="container-fluid text-center py-5 home-cont3">
           <p className="h1 text-uppercase text-white mt-5 mb-3">Just Order And We Will Deliver You</p>
-          <button type="button" className="btn btn-warning text-uppercase mb-5" onClick={() => this.handleOrderNowBtn()}><b>Order Now</b></button>
+          {/* <button type="button" className="btn btn-warning text-uppercase mb-5" onClick={() => this.handleOrderNowBtn()}><b>Order Now</b></button> */}
         </div>
 
         {/* Home Featured restaurant section */}
@@ -127,7 +127,7 @@ class Home extends Component {
                     </div>
                     <div style={{ position: "relative" }} className="col-lg-8 col-md-8 col-sm-12 py-2">
                       <h5 className="mb-1">Natural Healthy Food</h5>
-                      <p className="mb-2"><small>Apple Juice, Beef Roast, Cheese Burger</small></p>
+                      <p className="mb-2"><small>Dals,vegetables</small></p>
                       <p>
                         <small className="">
                           <FontAwesomeIcon icon="star" className="rating mr-1" />
@@ -151,7 +151,7 @@ class Home extends Component {
                     </div>
                     <div style={{ position: "relative" }} className="col-lg-8 col-md-8 col-sm-12 py-2">
                       <h5 className="mb-1">Menu &amp; Drinks</h5>
-                      <p className="mb-2"><small>Chicken Roast, Chines Soup, Cold Coffee</small></p>
+                      <p className="mb-2"><small>Chicken,meat</small></p>
                       <p>
                         <small className="">
                           <FontAwesomeIcon icon="star" className="rating mr-1" />
@@ -175,7 +175,7 @@ class Home extends Component {
                     </div>
                     <div style={{ position: "relative" }} className="col-lg-8 col-md-8 col-sm-12 py-2">
                       <h5 className="mb-1">Chefs</h5>
-                      <p className="mb-2"><small>Egg Fry, Noodles, Pastry</small></p>
+                      <p className="mb-2"><small>Eggs,meat</small></p>
                       <p>
                         <small className="">
                           <FontAwesomeIcon icon="star" className="rating mr-1" />
@@ -199,7 +199,7 @@ class Home extends Component {
                     </div>
                     <div style={{ position: "relative" }} className="col-lg-8 col-md-8 col-sm-12 py-2">
                       <h5 className="mb-1">Menu's</h5>
-                      <p className="mb-2"><small>Fish Fry, Fresh Juice, Stakes</small></p>
+                      <p className="mb-2"><small>Fish Fry, Juice, Stakes</small></p>
                       <p>
                         <small className="">
                           <FontAwesomeIcon icon="star" className="rating mr-1" />
@@ -223,7 +223,7 @@ class Home extends Component {
                     </div>
                     <div style={{ position: "relative" }} className="col-lg-8 col-md-8 col-sm-12 py-2">
                       <h5 className="mb-1">Food N&amp;H</h5>
-                      <p className="mb-2"><small>Beef Roast, Cheese Burger, Doughnut</small></p>
+                      <p className="mb-2"><small>fruits,eggs</small></p>
                       <p>
                         <small className="">
                           <FontAwesomeIcon icon="star" className="rating mr-1" />
@@ -246,8 +246,8 @@ class Home extends Component {
                       <img style={{ width: "70%" }} alt="Restaurant" src={require("../assets/images/listing-logo13.png")} />
                     </div>
                     <div style={{ position: "relative" }} className="col-lg-8 col-md-8 col-sm-12 py-2">
-                      <h5 className="mb-1">Restaurant</h5>
-                      <p className="mb-2"><small>Apple Juice, BB.Q</small></p>
+                      <h5 className="mb-1">Open Restaurant</h5>
+                      <p className="mb-2"><small>Apples,fruits</small></p>
                       <p>
                         <small className="">
                           <FontAwesomeIcon icon="star" className="rating mr-1" />

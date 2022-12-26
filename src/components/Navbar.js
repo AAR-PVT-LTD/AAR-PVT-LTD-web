@@ -50,9 +50,9 @@ class Navbar extends Component {
   _renderWithOutLogin() {
     return (
       <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <span className="nav-link active text-uppercase mr-2"><Link to="/restaurants">Restaurants</Link></span>
-        </li>
+        </li> */}
         <li className="nav-item">
           <span className="nav-link text-uppercase mr-2"><Link to="/login">Login / Register</Link></span>
         </li>
@@ -90,9 +90,9 @@ class Navbar extends Component {
     } else {
       return (
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <span className="nav-link active text-uppercase mr-2"><Link to="/restaurants">Restaurants</Link></span>
-          </li>
+          </li> */}
           <li className="nav-item">
             <span className="nav-link active text-uppercase mr-2"><Link to="/my-orders">My Orders</Link></span>
           </li>

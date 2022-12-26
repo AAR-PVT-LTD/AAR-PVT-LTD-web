@@ -91,7 +91,7 @@ class MyOrders extends Component {
                                     return (
                                         <div className="row mb-3" key={val2}>
                                             <div className="col-lg-2 col-md-3 col-8 offset-2 offset-lg-0 offset-md-0 px-0 mb-3 text-center">
-                                                <img style={{ width: "70px", height: "70px" }} alt="Natural Healthy Food" src={myOrder[val].itemsList[val2].itemImageUrl} />
+                                                {/* <img style={{ width: "70px", height: "70px" }} alt="Natural Healthy Food" src={myOrder[val].itemsList[val2].itemImageUrl} /> */}
                                             </div>
                                             <div className="col-lg-7 col-md-6 col-sm-12 px-0">
                                                 <h6 className="">{myOrder[val].itemsList[val2].itemTitle}</h6>
@@ -143,7 +143,7 @@ class MyOrders extends Component {
                                     return (
                                         <div className="row mb-3" key={val2}>
                                             <div className="col-lg-2 col-md-3 col-8 offset-2 offset-lg-0 offset-md-0 px-0 mb-3 text-center">
-                                                <img style={{ width: "70px", height: "70px" }} alt="Natural Healthy Food" src={myOrder[val].itemsList[val2].itemImageUrl} />
+                                                {/* <img style={{ width: "70px", height: "70px" }} alt="Natural Healthy Food" src={myOrder[val].itemsList[val2].itemImageUrl} /> */}
                                             </div>
                                             <div className="col-lg-7 col-md-6 col-sm-12 px-0">
                                                 <h6 className="">{myOrder[val].itemsList[val2].itemTitle}</h6>
@@ -194,7 +194,7 @@ class MyOrders extends Component {
                                     return (
                                         <div className="row mb-3" key={val2}>
                                             <div className="col-lg-2 col-md-3 col-8 offset-2 offset-lg-0 offset-md-0 px-0 mb-3 text-center">
-                                                <img style={{ width: "70px", height: "70px" }} alt="Natural Healthy Food" src={myOrder[val].itemsList[val2].itemImageUrl} />
+                                                {/* <img style={{ width: "70px", height: "70px" }} alt="Natural Healthy Food" src={myOrder[val].itemsList[val2].itemImageUrl} /> */}
                                             </div>
                                             <div className="col-lg-7 col-md-6 col-sm-12 px-0">
                                                 <h6 className="">{myOrder[val].itemsList[val2].itemTitle}</h6>
@@ -235,7 +235,7 @@ class MyOrders extends Component {
                                 {
                                     userDetails ? <div className="row">
                                         <div className="col-lg-2 col-md-3 col-6 text-lg-center text-md-center pr-0 mb-2">
-                                            <img className="p-2 bg-white rounded text-center" alt="Natural Healthy Food" style={{ width: "60%" }} src={userDetails.userProfileImageUrl} />
+                                            {/* <img className="p-2 bg-white rounded text-center" alt="Natural Healthy Food" style={{ width: "60%" }} src={userDetails.userProfileImageUrl} /> */}
                                         </div>
                                         <div className="col-lg-10 col-md-9 col-12 pl-lg-0 pl-md-0">
                                             <h1 className="restaurant-title">{userDetails.userName}</h1>

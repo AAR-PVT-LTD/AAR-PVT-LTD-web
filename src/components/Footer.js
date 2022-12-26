@@ -10,7 +10,7 @@ class Footer extends Component {
                 <div className="container mb-4">
                     <div className="row">
 
-                        {/* Popular Cities Section */}
+                        {/* Popular Cities Section
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
                                 <h5 className="text-white">Popular Cities</h5>
@@ -24,29 +24,29 @@ class Footer extends Component {
                                     <li><a href="#">Multan</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Popular Cuisnies Section */}                        
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
-                                <h5 className="text-white">Popular Cuisnies</h5>
+                                <h5 className="text-white">Popular Cuisines</h5>
                             </div>
                             <div className="footer-list-div">
                                 <ul>
-                                    <li><a href="#">Apple Juice</a></li>
-                                    <li><a href="#">BB.Q</a></li>
-                                    <li><a href="#">Chicken Roast</a></li>
-                                    <li><a href="#">Hot Dogs</a></li>
+                                    <li><a href="#">Fruits</a></li>
+                                    <li><a href="#">Potato</a></li>
+                                    <li><a href="#">Chicken</a></li>
+                                    <li><a href="#">Meat</a></li>
                                     <li><a href="#">Prawns</a></li>
-                                    <li><a href="#">Steam Roast</a></li>
+                                    <li><a href="#">Eggs</a></li>
                                 </ul>
                             </div>
                         </div>
 
-                        {/* Popular Cuisnies Section */}
+                        {/* Popular Cuisines Section */}
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
-                                <h5 className="text-white">Menu</h5>
+                                {/* <h5 className="text-white">Menu</h5>
                             </div>
                             <div className="footer-list-div">
                                 <ul>
@@ -56,7 +56,7 @@ class Footer extends Component {
                                     <li><a href="#">How it works</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                         
                         {/* Contact Section */}                        
                         <div className="col-lg-3 col-md-3 col-sm-12">
@@ -120,13 +120,13 @@ class Footer extends Component {
                                         <span className="bg-warning p-2 rounded mr-3">
                                             <FontAwesomeIcon icon="phone" className="text-white" />
                                         </span>
-                                        <span>+1 321 828 6662</span>
+                                        <span>+91 8321828662</span>
                                     </li>
                                     <li className="pb-3">
                                         <span className="bg-warning p-2 rounded mr-3">
                                             <FontAwesomeIcon icon="envelope" className="text-white" />
                                         </span>
-                                        <span>info@quickfood.com</span>
+                                        <span>info@aar.com</span>
                                     </li>
                                 </ul>
                             </div>
@@ -137,7 +137,7 @@ class Footer extends Component {
                 {/* Footer Copyright Section */}
                 <div className="container">
                     <div className="col-12 footer-copyright">
-                        <p>© 2019 Quick Food. All Rights Reserved. Powered By <span style={{ color: "#eb6825", fontWeight: 700 }}>Fahad Ahmed</span></p>
+                        <p>Powered By <span style={{ color: "#eb6825", fontWeight: 700 }}>AAR TEAM</span></p>
                     </div>
                 </div>
             </div>
