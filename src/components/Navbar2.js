@@ -52,9 +52,6 @@ class Navbar2 extends Component {
         return (
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                    <span className="nav-link active text-uppercase mr-2"><Link to="/restaurants">Restaurants</Link></span>
-                </li>
-                <li className="nav-item">
                     <span className="nav-link text-uppercase mr-2"><Link to="/login">Login / Register</Link></span>
                 </li>
                 <li className="nav-item">
