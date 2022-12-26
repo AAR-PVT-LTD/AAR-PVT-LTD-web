@@ -208,7 +208,7 @@ export default class RegisterRestaurant extends Component {
         const { showError, registerFormError, userProfileImageLable, userTNC, userGender } = this.state;
         return (
             <div>
-                {/* <div className="container-fluid register-cont1">
+                <div className="container-fluid register-cont1">
                     <div className="">
                         <Navbar2 history={this.props.history} />
                         <div className="container register-cont1-text">
@@ -281,7 +281,7 @@ export default class RegisterRestaurant extends Component {
                         </form>
                     </div>
                 </div>
-                <Footer /> */}
+                <Footer />
             </div>
         );
     }
