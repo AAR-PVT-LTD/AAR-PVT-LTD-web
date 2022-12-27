@@ -29,16 +29,16 @@ class Footer extends Component {
                         {/* Popular Cuisines Section */}                        
                         <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-head-div">
-                                <h5 className="text-white">Popular Cuisines</h5>
+                                <h5 className="text-white">Popular Food</h5>
                             </div>
                             <div className="footer-list-div">
                                 <ul>
-                                    <li><a href="#">Fruits</a></li>
+                                    <li><a href="#">Fruit custard</a></li>
                                     <li><a href="#">Salads</a></li>
-                                    <li><a href="#">Eggs</a></li>
-                                    <li><a href="#">Fish</a></li>
-                                    <li><a href="#">Chicken</a></li>
-                                    <li><a href="#">Cereals</a></li>
+                                    <li><a href="#">Egg Curry</a></li>
+                                    <li><a href="#">Fish Fry</a></li>
+                                    <li><a href="#">Chicken Tikka Masala</a></li>
+                                    <li><a href="#">Paneer butter Masala</a></li>
                                 </ul>
                             </div>
                         </div>

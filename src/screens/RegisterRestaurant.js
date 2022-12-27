@@ -246,7 +246,7 @@ export default class RegisterRestaurant extends Component {
                                     <input type="text" className="form-control" id="userCity" onKeyUp={(e) => this.handleUserCity(e.target.value)} />
                                 </div>
                                 <div className="form-group col-md-6">
-                                    <label htmlFor="userCountry">Country</label>
+                                    <label htmlFor="userCountry">Pin code</label>
                                     <input type="text" className="form-control" id="userCountry" onKeyUp={(e) => this.handleUserCountry(e.target.value)} />
                                 </div>
                             </div>
