@@ -37,7 +37,7 @@ class Home extends Component {
             {/* <Navbar history={this.props.history} /> */}
             <Navbar2 history={this.props.history} />
             <div className="container home-cont1-text">
-              <h1 className="h1 text-uppercase text-white text-center mb-4"><strong>Fast Food Made <br /> Easy access</strong></h1>
+              <h1 className="h1 text-uppercase text-white text-center mb-4"><strong>Food Made <br /> Easy access</strong></h1>
               <div className="container">
                 <div className="row justify-content-center">
                   <div className="col-lg-6 col-md-6 col-sm-12 mb-3">
@@ -107,7 +107,7 @@ class Home extends Component {
 
         {/* Home Order now section */}
         <div className="container-fluid text-center py-5 home-cont3">
-          <p className="h1 text-uppercase text-white mt-5 mb-3">Just Order And We Will Deliver You</p>
+          <p className="h1 text-uppercase text-white mt-5 mb-3">Order made easy</p>
           {/* <button type="button" className="btn btn-warning text-uppercase mb-5" onClick={() => this.handleOrderNowBtn()}><b>Order Now</b></button> */}
         </div>
 
