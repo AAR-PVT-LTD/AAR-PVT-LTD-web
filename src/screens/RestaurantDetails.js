@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Navbar2 from '../components/Navbar2';
 import Footer from '../components/Footer';
 import { connect } from 'react-redux';
-import Swal from 'sweetalert2'
+//import Swal from 'sweetalert2'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css'
@@ -145,7 +145,7 @@ class RestaurantDetails extends Component {
     }
 
     render() {
-        const { tab1, tab2, tab3, tab1Content, tab2Content, tab3Content, resDetails, totalPrice, cartItemsList, showCartList } = this.state;
+        const { tab1, tab2, tab3, tab1Content, tab2Content, tab3Content, resDetails, totalPrice, cartItemsList } = this.state;
         return (
             <div>
                 <div className="container-fluid res-details-cont1">
